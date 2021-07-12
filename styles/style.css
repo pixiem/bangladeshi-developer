@@ -1,0 +1,158 @@
+body{
+    background-color: #F3F1FF;
+    margin:0px;
+    padding: 0px;
+
+}
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin-top: ;
+    width: 870px;
+    padding: 33px;
+    margin-top: 36px;
+    
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.top-players h2{
+    margin-top: 0px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player h3{
+    padding-left: 16px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+.thumbnail img{
+    width:177px ;
+    height: 117px;
+}
+.single-blog{
+    display: flex;
+}
+.blog-title{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.blog-title h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.blog-title p{
+    margin-top: 0;
+    padding-top: 0;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+
+}
+#author{
+    color:#562EFF;
+}
+.all-courses{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+.course{
+    width: 225px;
+    height: 270px;
+    padding: 14px;
+    border-radius: 26px;
+    box-shadow: 0px 0px 4px 0.1px grey;
+
+
+
+}
+.course img{
+    width: 224px;
+    height: 105px;
+}
+.course h2{
+    margin: 0px;
+    font-size: 20px;
+}
+.course p{
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: red;
+}
+.time{
+    padding: 5px;
+    background-color: #FFE4E8;
+    border: 1px solid #FFE4E8;
+    border-radius: 34px;
+}
+#star{
+    color: #FFC014;
+}
+#starless{
+    color: #AEAEAE;
+}
+
+@media only screen and (max-width:688px) {
+    .section-title{
+        text-align: center;
+    }
+    .players{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .all-courses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        width: 70%;
+        align-items: center;
+    }
+    .single-blog{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .course{
+        margin-bottom: 50px;
+    }
+    }
+  }
+  
